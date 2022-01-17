@@ -1,0 +1,39 @@
+// Import UI Library fonts
+
+@font-face {
+  font-family: $font-family;
+  src: url('~ui-library-starter/src/static/fonts/Ubuntu/Ubuntu-Regular.eot');
+  src: local('Ubuntu Regular'), local('Ubuntu-Regular'),
+    url('~ui-library-starter/src/static/fonts/Ubuntu/Ubuntu-Regular.eot?#iefix') format('embedded-opentype'),
+    url('~ui-library-starter/src/static/fonts/Ubuntu/Ubuntu-Regular.woff2') format('woff2'),
+    url('~ui-library-starter/src/static/fonts/Ubuntu/Ubuntu-Regular.woff') format('woff'),
+    url('~ui-library-starter/src/static/fonts/Ubuntu/Ubuntu-Regular.ttf') format('truetype');
+  font-weight: $font-weight.regular;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: $font-family;
+  src: url('~ui-library-starter/src/static/fonts/Ubuntu/Ubuntu-Bold.eot');
+  src: local('Ubuntu Bold'), local('Ubuntu-Bold'),
+    url('~ui-library-starter/src/static/fonts/Ubuntu/Ubuntu-Bold.eot?#iefix') format('embedded-opentype'),
+    url('~ui-library-starter/src/static/fonts/Ubuntu/Ubuntu-Bold.woff2') format('woff2'),
+    url('~ui-library-starter/src/static/fonts/Ubuntu/Ubuntu-Bold.woff') format('woff'),
+    url('~ui-library-starter/src/static/fonts/Ubuntu/Ubuntu-Bold.ttf') format('truetype');
+  font-weight: $font-weight.bold;
+  font-style: bold;
+}
+
+
+// Base normalize
+
+:root
+  scroll-behavior smooth
+
+body
+  font-family $font-family, sans-serif
+  -moz-osx-font-smoothing grayscale
+  -webkit-font-smoothing antialiased
+  text-rendering: optimizeSpeed
+  color $colors.text
+  overflow-x hidden
