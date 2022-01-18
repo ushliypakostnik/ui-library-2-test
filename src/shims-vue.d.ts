@@ -5,4 +5,4 @@ declare module '*.vue' {
   export default component
 };
 
-declare module "ui-library-starter-2";
+declare module 'ui-library-starter-2';
