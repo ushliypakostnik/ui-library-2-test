@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
-    "ui-library-starter-2": "^0.0.29",
+    "ui-library-starter-2": "^0.0.30",
     "vue": "^3.0.0"
   },
   "devDependencies": {

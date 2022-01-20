@@ -1,5 +1,7 @@
 <template>
-  <Layout>Test content of test poject!!!</Layout>
+  <Layout>
+    <TestComponent />
+  </Layout>
 </template>
 
 <script lang="ts">
